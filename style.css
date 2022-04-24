@@ -1,0 +1,55 @@
+
+body{margin: 0px; padding: 0px;}
+#home{width: 100%; height: 100vh; background-image: url(img/banner.jpg); background-position: center; background-size: cover; position: relative;}
+.navigation{ width: 100%; padding: 0px 30px; background-color: rgba(0,0,0,0.7); position: fixed;top: 0px; z-index: 100;}
+.container{max-width: 1200px; display: flex; margin: auto;}
+.part{ width: 50%;  }
+.part img{margin-top: 10px;}
+.ulist{margin: 0;padding: 0;}
+.list{display: inline-block; padding: 40px 25px;}
+.list a{text-decoration: none; color: white;}
+.list a:hover{ color: white; text-decoration: none;}
+
+.front{text-align: center;font-size: 62px; font-weight: bolder;color: white;position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);}
+
+
+#about,#portfolio,#service,#contact{padding-top: 50px; padding-bottom: 30px; z-index: -1; transition: 1s;  }
+
+.left{ width: 50%; padding: 20px; box-sizing: border-box; }
+.para{width: 24%; text-align: center; padding: 5px; box-sizing: border-box; margin: 5px; overflow: hidden;}
+.para img{transition: 1s;}
+
+.para:hover img{transform: scale(1.5,1.5);}
+.ikon{font-size: 24px; color: white; padding: 20px; border-radius: 50%; background-color: #333;}
+
+
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.frm {
+  border-radius: 5px;
+  
+  padding: 20px;
+}
